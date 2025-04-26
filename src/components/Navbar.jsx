@@ -16,12 +16,12 @@ const Navbar = () => {
     <div className="w-full bg-transparent h-auto flex justify-between items-center max-[980px]:relative">
       <div className="w-full mx-auto flex  items-center justify-between py-4 px-4">
         {/* Logo */}
-        <div className="w-1/3 ">
+        <div className="w-1/3 max-sm:w-1/2">
           <Link to="/">
             <img
               src="https://www.vendrax.com/assets/images/logo.webp"
               alt="Vendrax Logo"
-              className="h-10"
+              className="h-10 "
             />
           </Link>
         </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <li className="relative group">
               <Link to="/">Services</Link>
               <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-md z-10">
-                <ul className="flex flex-col w-48 text-sm gap-2">
+                <ul className="flex flex-col w-48 text-sm gap-2 text-black">
                   <li>
                     <Link to="/" className="px-2 py-2 hover:bg-gray-100">
                       Ecommerce
@@ -89,7 +89,7 @@ const Navbar = () => {
             <li className="relative group">
               <Link to="/">Partnership</Link>
               <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-md z-10">
-                <ul className="flex flex-col text-sm gap-2 w-52">
+                <ul className="flex flex-col text-sm gap-2 w-52 text-black">
                   <li>
                     <Link to="/" className="px-2 py-2 hover:bg-gray-100">
                       Referral Program
