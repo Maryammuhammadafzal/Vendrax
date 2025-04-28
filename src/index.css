@@ -18,4 +18,11 @@ body {
   background-repeat: no-repeat
 }
 
+.our-service{
+  background-image:  url("./assets/images/bg-ser.webp");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat
+}
+
   @import "tailwindcss";

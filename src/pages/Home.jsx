@@ -8,6 +8,8 @@ import slides from "../data/heroSliderData.js";
 import Button2 from "../components/Button2.jsx";
 import UserSection from "../components/UserSection.jsx";
 import WhatWeOfferSection from "../components/WhatWeOfferSection.jsx";
+import OurServicesSection from "../components/OurServicesSection.jsx";
+import WhoWeAreSection from "../components/WhoWeAreSection.jsx";
 
 const Home = () => {
   const settings = {
@@ -63,7 +65,7 @@ const Home = () => {
                     )}
                    
                     <div className="my-3">
-                      <Button2 text={slide.button.text}/>
+                      <Button2 text={slide.button.text} textColor="white" arrowBtnBorder="[#222a28]" border="orange-600" hoverBg="teal-300" hoverBorderColor="teal-300" hovertextColor="black" btnBg="orange-600" arrowBtnBg="white" arrowBtnColor="black" textSize="xl" font="bold" />
                     </div>
                   </div>
                 </div>
@@ -90,6 +92,8 @@ const Home = () => {
       </section>
       <UserSection/>
       <WhatWeOfferSection/>
+      <OurServicesSection/>
+      <WhoWeAreSection/>
     </div>
   );
 };
