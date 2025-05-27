@@ -10,6 +10,8 @@ import UserSection from "../components/UserSection.jsx";
 import WhatWeOfferSection from "../components/WhatWeOfferSection.jsx";
 import OurServicesSection from "../components/OurServicesSection.jsx";
 import WhoWeAreSection from "../components/WhoWeAreSection.jsx";
+import OurVendraxSection from "../components/OurVendraxSection.jsx";
+import OurCTA2Section from "../components/OurCTA2Section.jsx";
 
 const Home = () => {
   const settings = {
@@ -26,7 +28,7 @@ const Home = () => {
 
   
   return (
-    <div className="w-full h-screen">
+    <div className="w-full min-h-screen">
       <section className="relative w-full h-screen text-white">
         <div className="navbar absolute  z-20 left-0 right-0">
           <Navbar />
@@ -65,7 +67,7 @@ const Home = () => {
                     )}
                    
                     <div className="my-3">
-                      <Button2 text={slide.button.text} textColor="white" arrowBtnBorder="[#222a28]" border="orange-600" hoverBg="teal-300" hoverBorderColor="teal-300" hovertextColor="black" btnBg="orange-600" arrowBtnBg="white" arrowBtnColor="black" textSize="xl" font="bold" />
+                      <Button2 text={slide.button.text} textColor="text-white" arrowBtnBorder="border-[#222a28]" border="border-orange-600" hoverBg="hover:bg-teal-300" hoverBorderColor="hover:border-teal-300" hovertextColor="hover:text-black" btnBg="bg-orange-600" arrowBtnBg="bg-white" arrowBtnColor="text-black" textSize="text-xl" font="font-bold" />
                     </div>
                   </div>
                 </div>
@@ -94,6 +96,8 @@ const Home = () => {
       <WhatWeOfferSection/>
       <OurServicesSection/>
       <WhoWeAreSection/>
+      <OurVendraxSection/>
+      <OurCTA2Section/>
     </div>
   );
 };

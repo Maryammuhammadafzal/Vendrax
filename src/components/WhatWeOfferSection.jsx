@@ -43,7 +43,7 @@ const WhatWeOfferSection = () => {
       <div className="flex w-[95%] h-screen max-sm:w-[98%] justify-center mx-auto items-center max-[1200px]:w-[70%] max-[1000px]:w-[75%] max-[800px]:w-[80%] max-md:flex-col max-md:h-auto gap-3 max-[1200px]:h-screen">
         <div className="content flex w-[50%] max-md:w-[70%] max-sm:w-full flex-col gap-3 justify-center items-start ">
           <div className="flex flex-col gap-4  w-auto">
-            <Badge />
+            <Badge text="What We Offer" color="text-red-500" bg="bg-red-100" />
             <h2 className="font-extrabold text-5xl tracking-tight max-[1200px]:text-3xl max-[400px]:text-2xl">
               Get All The Features You Need In Your POS
             </h2>
@@ -67,7 +67,7 @@ const WhatWeOfferSection = () => {
 </div>
 
 <div className="mt-3 p-2 ">
-                      <Button2 text="Get Started" textSize="lg" font="bold" textColor="black" arrowBtnBorder="white" border="black" hoverBg="black" hoverBorderColor="black" hovertextColor="white"  btnBg="white" arrowBtnBg="orange-600" arrowBtnColor="white"/>
+                      <Button2 text="Get Started" textSize="text-lg" font="font-bold" textColor="text-black" arrowBtnBorder="border-white" border="border-black" hoverBg="hover:bg-black" hoverBorderColor="hover:border-black" hovertextColor="hover:text-white"  btnBg="bg-white" arrowBtnBg="bg-orange-600" arrowBtnColor="text-white"/>
                     </div>
         </div>
 

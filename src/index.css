@@ -24,5 +24,17 @@ body {
   background-position:center;
   background-repeat: no-repeat
 }
+.our-cta2{
+  background-image:  url("./assets/images/orctabg.jpg");
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat
+}
+.footer-bg{
+  background-image:  url("./assets/images/bg-foot.webp");
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat
+}
 
   @import "tailwindcss";

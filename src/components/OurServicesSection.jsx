@@ -6,7 +6,7 @@ const OurServicesSection = () => {
     <section className="our-service relative flex justify-center items-center z-10">
       <div className="container relative  max-[1200px]:w-[75%] max-md:w-full max-md:flex max-md:flex-col max-md:items-center  w-full py-4 px-0">
         <div className="head my-30 max-[1200px]:mt-15 max-md:px-2 px-20 max-[1200px]:mb-0 ">
-          <Badge bg="[#553a29]" color="[#ee5e2e]"/>
+          <Badge text="POS System Service" color="text-[#ee5e2e]" bg="bg-[#553a29]" />
           <h2 className="text-6xl max-[1200px]:text-4xl  max-[1000px]:text-3xl max-[800px]:text-2xl tracking-wide text-white font-extrabold mb-9 max-[1200px]:mb-0">
             Get a POS System That Aligns <br />
             With Your Industry
